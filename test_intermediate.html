@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛингвоЛэнд - Главная</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- ---------------------------------------------------- -->
+    <header>
+      <div class="header__menu header__menu-2" id="burgerMenu">
+        <button id="burgerClse">
+          <div class="clsBrg-1"></div>
+          <div class="clsBrg-2"></div>
+        </button>
+        <a href="index.html">Главная</a>
+        <a href="courses.html">Курсы</a>
+        <a href="tests.html">Тесты</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="login.html">Вход</a>
+        <a href="register.html">Регистрация</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+      <div class="header__contacts">
+        <div class="container header-1 block">
+          <div class="header__contacts__one">
+            <img src="img/marker-light.png" alt="" />
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/phone-light.png" alt="" />
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/mail-light.png" alt="" />
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+      </div>
+      <div class="container header-2 block">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="" />
+          <p>
+            Частное негосударственное образовательное <br />
+            учреждение дополнительного образования <br />
+            «Языковая студия «ЛингвоЛэнд»
+          </p>
+        </div>
+        <div class="header__menu">
+          <a href="index.html">Главная</a>
+          <a href="courses.html">Курсы</a>
+          <a href="tests.html">Тесты</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="burg" id="burderBtn">
+          <div class="burg-1"></div>
+          <div class="burg-2"></div>
+          <div class="burg-3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------------------------------------------- -->
+    <main>
+      <div class="container p-b-60">
+        <div class="title m-t-20">
+          <h2 class="title__text block">Тест Intermediate</h2>
+          <div class="title__line"></div>
+        </div>
+        <div class="m-t-2" id="intro">
+          <h2>
+            Добро пожаловать на тест по английскому языку уровня
+            <span>B1 - Intermediate</span>
+          </h2>
+          <br />
+
+          <p>
+            Этот тест предназначен для оценки ваших знаний английского языка на
+            <span>уровне B1</span>. Вам предстоит пройти тестирование по
+            различным темам, включая <span>грамматику</span>,
+            <span>синтаксис</span>, <span>лексику</span> и
+            <span>структуру предложений.</span>
+          </p>
+          <br />
+
+          <p>
+            На прохождение теста у вас есть <span>10 минут</span>. Постарайтесь
+            ответить на большее количество вопросов. По истечении времени ваши
+            ответы будут отправлены автоматически.
+          </p>
+          <br />
+
+          <p>
+            Нажмите кнопку <span>«Начать тест»</span> ниже, когда будете готовы.
+            Удачи!
+          </p>
+          <br />
+        </div>
+        <button id="start-button" class="base-button w-120">Начать тест</button>
+        <div id="timer"></div>
+        <div id="test-container">
+          <div class="question" id="q1">
+            <p>1. What is the past simple form of "go"?</p>
+            <div class="options">
+              <label><input type="radio" name="q1" value="goed" /> Goed</label>
+              <label><input type="radio" name="q1" value="went" /> Went</label>
+              <label><input type="radio" name="q1" value="goes" /> Goes</label>
+              <label><input type="radio" name="q1" value="gone" /> Gone</label>
+            </div>
+          </div>
+
+          <div class="question" id="q2">
+            <p>2. Choose the correct sentence:</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q2" value="She don't like coffee." />
+                She don't like coffee.</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="q2"
+                  value="She doesn't like coffee."
+                />
+                She doesn't like coffee.</label
+              >
+              <label
+                ><input type="radio" name="q2" value="She not likes coffee." />
+                She not likes coffee.</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="q2"
+                  value="She didn't likes coffee."
+                />
+                She didn't likes coffee.</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q3">
+            <p>3. Which of the following is a synonym for "happy"?</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q3" value="Angry" /> Angry</label
+              >
+              <label
+                ><input type="radio" name="q3" value="Joyful" /> Joyful</label
+              >
+              <label><input type="radio" name="q3" value="Sad" /> Sad</label>
+              <label
+                ><input type="radio" name="q3" value="Tired" /> Tired</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q4">
+            <p>4. How do you form the negative of "I am" in present tense?</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q4" value="I not am" /> I not
+                am</label
+              >
+              <label
+                ><input type="radio" name="q4" value="I no am" /> I no am</label
+              >
+              <label
+                ><input type="radio" name="q4" value="I amn't" /> I amn't</label
+              >
+              <label
+                ><input type="radio" name="q4" value="I am not" /> I am
+                not</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q5">
+            <p>
+              5. Which preposition completes the sentence: "She is interested
+              ___ art."
+            </p>
+            <div class="options">
+              <label><input type="radio" name="q5" value="in" /> In</label>
+              <label><input type="radio" name="q5" value="on" /> On</label>
+              <label><input type="radio" name="q5" value="at" /> At</label>
+              <label><input type="radio" name="q5" value="to" /> To</label>
+            </div>
+          </div>
+
+          <div class="question" id="q6">
+            <p>6. Which sentence is correct?</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q6" value="He can speaks English." />
+                He can speaks English.</label
+              >
+              <label
+                ><input type="radio" name="q6" value="He can speak English." />
+                He can speak English.</label
+              >
+              <label
+                ><input type="radio" name="q6" value="He can spoke English." />
+                He can spoke English.</label
+              >
+              <label
+                ><input
+                  type="radio"
+                  name="q6"
+                  value="He can speaking English."
+                />
+                He can speaking English.</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q7">
+            <p>
+              7. Which of the following is a question tag for "You are coming"?
+            </p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q7" value="aren't you?" /> Aren't
+                you?</label
+              >
+              <label
+                ><input type="radio" name="q7" value="isn't you?" /> Isn't
+                you?</label
+              >
+              <label
+                ><input type="radio" name="q7" value="are you?" /> Are
+                you?</label
+              >
+              <label
+                ><input type="radio" name="q7" value="won't you?" /> Won't
+                you?</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q8">
+            <p>8. What is the plural of "child"?</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q8" value="childs" /> Childs</label
+              >
+              <label
+                ><input type="radio" name="q8" value="children" />
+                Children</label
+              >
+              <label
+                ><input type="radio" name="q8" value="childrens" />
+                Childrens</label
+              >
+              <label
+                ><input type="radio" name="q8" value="child" /> Child</label
+              >
+            </div>
+          </div>
+
+          <div class="question" id="q9">
+            <p>9. Choose the correct form: "They have lived here ___ 2015."</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q9" value="since" /> Since</label
+              >
+              <label><input type="radio" name="q9" value="for" /> For</label>
+              <label><input type="radio" name="q9" value="in" /> In</label>
+              <label><input type="radio" name="q9" value="on" /> On</label>
+            </div>
+          </div>
+
+          <div class="question" id="q10">
+            <p>10. Which of the following means "to stop doing something"?</p>
+            <div class="options">
+              <label
+                ><input type="radio" name="q10" value="give in" /> Give
+                in</label
+              >
+              <label
+                ><input type="radio" name="q10" value="give away" /> Give
+                away</label
+              >
+              <label
+                ><input type="radio" name="q10" value="give up" /> Give
+                up</label
+              >
+              <label
+                ><input type="radio" name="q10" value="give out" /> Give
+                out</label
+              >
+            </div>
+          </div>
+
+          <button id="submit-button" class="base-button w-120">
+            Завершить тест
+          </button>
+        </div>
+
+        <div id="result-container" style="display: none">
+          <p>Вы набрали: <input type="text" id="result" readonly /></p>
+        </div>
+      </div>
+    </main>
+    <!-- ---------------------------------------------------- -->
+    <footer>
+      <div class="container footer block">
+        <div class="footer__menu">
+          <h2>Меню</h2>
+          <a href="index.html">Главная</a>
+          <a href="tests.html">Тесты</a>
+          <a href="courses.html">Курсы</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Аккаунт</h2>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Контакты</h2>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/marker-light.png" alt="" />
+            </div>
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/phone-light.png" alt="" />
+            </div>
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/mail-light.png" alt="" />
+            </div>
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+        <div class="footer__menu">
+          <h2>Полезные ссылки</h2>
+          <div class="footer__menu__social">
+            <a href="https://vk.com/lingvoland"
+              ><img src="img/soc-vk.png" alt=""
+            /></a>
+            <a href=""><img src="img/soc-tg.png" alt="" /></a>
+            <a href=""><img src="img/soc-inst.png" alt="" /></a>
+            <a href=""><img src="img/soc-yt.png" alt="" /></a>
+          </div>
+          <a class="site-link" href="https://lingvoland.ru/ru/"
+            ><img src="img/link-site.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="line-red block"></div>
+      <div class="container block">
+        <p class="copyright">
+          <span>© 2024 ЧНОУ "ЛингвоЛэнд"</span>
+          Все права защищены
+        </p>
+      </div>
+    </footer>
+    <!-- ---------------------------------------------------- -->
+    <script src="js/mask.js"></script>
+    <script src="js/mySwiper.js"></script>
+    <script src="js/mySlider.js"></script>
+    <script src="js/disabledBtn.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/testIntermediate.js"></script>
+    <script src="js/burgerMenu.js"></script>
+  </body>
+</html>

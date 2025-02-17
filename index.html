@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛингвоЛэнд - Главная</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <span class="close-modal-btn" id="closeModalBtn">&times;</span>
+        <div class="title m-t-2">
+          <h2 class="title__text block">🔍 Репетиторы</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>У нас лучшие преподаватели с опытом работы!</span> <br />
+
+          ∙ Индивидуальные занятия для детей и взрослых. <br />
+          ∙ Подготовка к экзаменам (ЕГЭ, ОГЭ, международные тесты). <br />
+          ∙ Гибкий график и онлайн-формат
+        </p>
+      </div> 
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <div class="modal-overlay2" id="modalOverlay2">
+      <div class="modal2">
+        <span class="close-modal-btn2" id="closeModalBtn2">&times;</span>
+        <div class="title m-t-2">
+          <h2 class="title__text block">🌞 Летний лагерь в ЛингвоЛэнд</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Весёлое и познавательное лето с английским!</span> <br />
+
+          ∙ ENGLISH CLASS: 3 занятия в игровой форме ежедневно. <br>
+          ∙ Обеды: полноценное горячее питание в кафе. <br>
+          ∙ Присмотр за детьми: с 9 до 16.00. <br>
+          ∙ Культурно-развлекательная программа: экскурсии, квесты, походы в кино и т.д. <br>
+          ∙ Творчество: мастер-классы, конкурсы, театрализованные постановки. <br>
+          ∙ Активный отдых: прогулки, игры на свежем воздухе, активные занятия.
+          <br />
+          <br />
+          <span>Даты:</span> <br />
+          Июнь–Август <br>
+          Для детей 7–14 лет
+        </p>
+        <!-- ---------------------------------------------------- -->
+      </div> 
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <div class="modal-overlay3" id="modalOverlay3">
+      <div class="modal3">
+        <span class="close-modal-btn3" id="closeModalBtn3">&times;</span>
+        <div class="title m-t-2">
+          <h2 class="title__text block">💼 Работа в "ЛингвоЛэнд"</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Ищете работу мечты? Мы расширяем команду!</span> <br />
+
+          ∙ Преподаватели английского языка <br>
+          ∙ Вожатые для летнего лагеря <br>
+          ∙ Администраторы и менеджеры
+          <br />
+          <br />
+          Присоединяйтесь к нашей дружной команде и помогайте детям учить английский весело!
+        </p>
+      </div> 
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <header>
+      <div class="header__menu header__menu-2" id="burgerMenu">
+        <button id="burgerClse">
+          <div class="clsBrg-1"></div>
+          <div class="clsBrg-2"></div>
+        </button>
+        <a href="index.html">Главная</a>
+        <a href="courses.html">Курсы</a>
+        <a href="tests.html">Тесты</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="login.html">Вход</a>
+        <a href="register.html">Регистрация</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+      <div class="header__contacts">
+        <div class="container header-1 block">
+          <div class="header__contacts__one">
+            <img src="img/marker-light.png" alt="" />
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/phone-light.png" alt="" />
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/mail-light.png" alt="" />
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+      </div>
+      <div class="container header-2 block">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="" />
+          <p>
+            Частное негосударственное образовательное <br />
+            учреждение дополнительного образования <br />
+            «Языковая студия «ЛингвоЛэнд»
+          </p>
+        </div>
+        <div class="header__menu">
+          <a href="index.html">Главная</a>
+          <a href="courses.html">Курсы</a>
+          <a href="tests.html">Тесты</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="burg" id="burderBtn">
+          <div class="burg-1"></div>
+          <div class="burg-2"></div>
+          <div class="burg-3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------------------------------------------- -->
+    <main>
+      <div class="swiper mySwiper block">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide slide-adapt">
+            <div class="swiper-slide__text">
+              <h1>Летние каникулы 2025 в Англии</h1>
+              <h3>Языковая программа для школьников</h3>
+              <h5>Присоединяйтесь!</h5>
+              <div class="swiper-slide__text__btn-div">
+                <a href="contacts.html" class="swiper-slide__text__btn-div__red"
+                  >Свяжитесь с нами</a
+                >
+                <!-- <a href="#" class="swiper-slide__text__btn-div__white">
+                  Подробнее
+                </a> -->
+              </div>
+            </div>
+            <img src="img/slide-1.png" alt="" />
+          </div>
+          <div class="swiper-slide slide-adapt">
+            <div class="swiper-slide__text">
+              <h1>Обучение английскому онлайн</h1>
+              <h3>Онлайн уроки английского на нашей новой платформе</h3>
+              <h5>Занимайтесь, не выходя из дома</h5>
+              <div class="swiper-slide__text__btn-div">
+                <a href="https://lingvoland.online/" class="swiper-slide__text__btn-div__red"
+                  >Перейти</a
+                >
+                <!-- <a href="#" class="swiper-slide__text__btn-div__white">
+                  Подробнее
+                </a> -->
+              </div>
+            </div>
+            <img src="img/slide-5.png" alt="" />
+          </div>
+        </div>
+        <div class="swiper-button-next s-btn">  </div>
+        <div class="swiper-button-prev s-btn"></div>
+      </div>
+      <div class="bg-gray block">
+        <div class="container">
+          <div class="title">
+            <h2 class="title__text">Наши предложения</h2>
+            <div class="title__line"></div>
+          </div>
+          <div class="cards">
+            <div class="card card__long card-1">
+              <div class="card__content">
+                <h3>Курсы английского для подростков</h3>
+                <p>
+                  ∙ 14-17 лет <br />
+                  ∙ Занятия 2 раза в неделю <br />
+                  ∙ Утренние смены
+                </p>
+                <a href="courses.html">Записаться</a>
+              </div>
+            </div>
+            <div class="card card__long card-2">
+              <div class="card__content">
+                <h3>Курсы английского для взрослых</h3>
+                <p>
+                  ∙ От 18 лет <br />
+                  ∙ Занятия 2 раза в неделю <br />
+                  ∙ Дневные/вечерние смены
+                </p>
+                <a href="courses.html">Записаться</a>
+              </div>
+            </div>
+            <div class="card card-3">
+              <div class="card__content">
+                <h3>Репетиторы</h3>
+                <p>
+                  ∙ Подготовка к экзаменам <br />
+                  ∙ Индивидуальный подход
+                </p>
+                <a class="open-modal-btn">Подробнее</a>
+              </div>
+            </div>
+            <div class="card card-4">
+              <div class="card__content">
+                <h3>Летний лагерь</h3>
+                <p>
+                  ∙ Изучение английского <br />
+                  ∙ Интересное времяпрепровождение
+                </p>
+                <a class="open-modal-btn2">Подробнее</a>
+              </div>
+            </div>
+            <div class="card card-5">
+              <div class="card__content">
+                <h3>Работа в Lingvoland</h3>
+                <p>
+                  ∙ Работа учителем или сотрудником <br />
+                  ∙ Достойная зарплата
+                </p>
+                <a class="open-modal-btn3">Подробнее</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container p-b-60 block">
+        <div class="title m-t-20">
+          <h2 class="title__text">О ЧНОУ “ЛингвоЛэнд”</h2>
+          <div class="title__line"></div>
+        </div>
+        <div class="left-right">
+          <p>
+            ЧНОУ «Языковая студия «ЛингвоЛэнд» создано в 2000 году, успешно
+            работает более 20 лет. <br /><br />
+            Студия обучает иностранным языкам: курсы английского языка для
+            детей, школьников, взрослых; курсы немецкого и французского
+            языков.<br /><br />
+            Обучение проводится для разных возрастных групп, разного уровня
+            знаний языка. <br /><br />
+            Студия проводит обучение в группах и индивидуально. Учим персонал
+            компаний и предприятий корпоративных клиентов с выездом в офис.
+            <br /><br />
+            С 2005 ЧНОУ "ЛингвоЛэнд" - центр подготовки по подготовке к
+            Кембриджским экзаменам (Cambridge English Language Assessment Exam
+            Рreparation Centre). На регулярной основе проводятся выездные сессии
+            по проведению экзаменов для получения международных сертификатов на
+            уровень владения английским языком. <br /><br />
+            Для осуществления качественного процесса обучения работает
+            высококвалифицированный преподавательский состав, который
+            обеспечивает грамотный и осмысленный подход к каждому вопросу.
+          </p>
+          <div class="left-right__links">
+            <img src="img/link-tg.png" alt="" />
+            <img src="img/link-online.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray block">
+        <div class="container">
+          <div class="title">
+            <h2 class="title__text">Популярные курсы</h2>
+            <div class="title__line"></div>
+          </div>
+          <div class="courses-index">
+            <table>
+              <tr>
+                <th>Курс</th>
+                <th>Форма обучения</th>
+                <th>Ближайшие группы</th>
+                <th>Цена</th>
+              </tr>
+              <tr>
+                <td>Gateway A1 plus - курс английского для подростков</td>
+                <td>Групповые занятия Gateway A1+</td>
+                <td>11.09.2024</td>
+                <td>от 310 руб</td>
+              </tr>
+              <tr>
+                <td>Project 1 - курсы английского для школьников</td>
+                <td>Групповые занятия Project 1</td>
+                <td>01.09.2024</td>
+                <td>от 329 руб</td>
+              </tr>
+              <tr>
+                <td>Beginner - курс английского для взрослых</td>
+                <td class="w-214">Групповые занятия для взрослых Beginner</td>
+                <td>09.09.2024</td>
+                <td>от 310 руб</td>
+              </tr>
+            </table>
+            <a href="courses.html" class="courses-index__btn">Все курсы</a>
+          </div>
+        </div>
+      </div>
+      <div class="container p-b-100 block">
+        <div class="title block">
+          <h2 class="title__text m-t-20">Нам доверяют</h2>
+          <div class="title__line"></div>
+        </div>
+        <div class="slider block">
+          <div class="slider__btn slider__btn-prev"><</div>
+          <div class="slider__wrapper">
+            <div class="slider__card">
+              <img src="img/s-airliquide.png" alt="" />
+              <p>АО «Вологодский оптико-механический завод»</p>
+            </div>
+            <div class="slider__card">
+              <img src="img/s-gkvl.png" alt="" />
+              <p>Эр Ликид Северсталь</p>
+            </div>
+            <div class="slider__card">
+              <img src="img/s-nestle.png" alt="" />
+              <p>ООО «Нестле Россия»</p>
+            </div>
+            <div class="slider__card">
+              <img src="img/s-soglasie.png" alt="" />
+              <p>ООО «СК «Согласие»</p>
+            </div>
+            <div class="slider__card">
+              <img src="img/s-vomz.png" alt="" />
+              <p>Вологодские лесопромышленники</p>
+            </div>
+          </div>
+          <div class="slider__btn slider__btn-next">></div>
+        </div>
+      </div>
+    </div>
+    </main>
+    <!-- ---------------------------------------------------- -->
+    <footer>
+      <div class="container footer block">
+        <div class="footer__menu" >
+          <h2>Меню</h2>
+          <a href="index.html">Главная</a>
+          <a href="tests.html">Тесты</a>
+          <a href="courses.html">Курсы</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Аккаунт</h2>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Контакты</h2>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/marker-light.png" alt="" />
+            </div>
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/phone-light.png" alt="" />
+            </div>
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/mail-light.png" alt="" />
+            </div>
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+        <div class="footer__menu">
+          <h2>Полезные ссылки</h2>
+          <div class="footer__menu__social">
+            <a href="https://vk.com/lingvoland"
+              ><img src="img/soc-vk.png" alt=""
+            /></a>
+            <a href=""><img src="img/soc-tg.png" alt="" /></a>
+            <a href=""><img src="img/soc-inst.png" alt="" /></a>
+            <a href=""><img src="img/soc-yt.png" alt="" /></a>
+          </div>
+          <a class="site-link" href="https://lingvoland.ru/ru/"
+            ><img src="img/link-site.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="line-red block"></div>
+      <div class="container block">
+        <p class="copyright">
+          <span>© 2024 ЧНОУ "ЛингвоЛэнд"</span>
+          Все права защищены
+        </p>
+      </div>
+    </footer>
+    <!-- ---------------------------------------------------- -->
+    <script src="js/mySwiper.js"></script>
+    <script src="js/mySlider.js"></script>
+    <script src="js/disabledBtn.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/modal2.js"></script>
+    <script src="js/modal3.js"></script>
+    <script src="js/burgerMenu.js"></script>
+  </body>
+</html>

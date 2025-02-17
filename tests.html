@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛингвоЛэнд - Главная</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper1.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://unpkg.com/imask"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="modal-overlay" id="modalOverlay">
+      <div class="modal">
+        <span class="close-modal-btn" id="closeModalBtn">&times;</span>
+        <p class="modal__title">
+          Информация по уровням владения английским языком согласно
+          общеевропейской системе CEFR (Common European Framework of Reference
+          for Languages)
+        </p>
+        <div class="title m-t-20">
+          <h2 class="title__text block">A1 (Beginner - Начальный уровень)</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Способность использовать повседневные фразы и выражения. <br />
+          ∙ Умение представиться и задать простые вопросы (например, о месте
+          жительства, знакомых, интересах). <br />
+          ∙ Понимание коротких надписей и объявлений. <br />
+          ∙ Чтение простых текстов (например, вывесок или элементарных писем).
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ “Hello, my name is Anna.” <br />
+          ∙ “I live in Moscow.” <br />
+          ∙ Способность заполнять простые формы с персональными данными.
+        </p>
+        <!-- <div class="modal__line m-t-2"></div> -->
+        <div class="title m-t-20">
+          <h2 class="title__text block">A2 (Elementary - Базовый уровень)</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Уверенное использование повседневных выражений и фраз. <br />
+          ∙ Понимание и создание простых предложений о себе, семье, покупках,
+          местности. <br />
+          ∙ Умение ориентироваться в стандартных ситуациях, связанных с
+          поездками или магазинами. <br />
+          ∙ Чтение коротких писем, меню и рекламных листовок.
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ Понимание простого диалога в кафе. <br />
+          ∙ Способность заказать еду или билет. <br />
+          ∙ Описание повседневной рутины
+        </p>
+        <!-- ---------------------------------------------------- -->
+        <div class="title m-t-20">
+          <h2 class="title__text block">B1 (Intermediate - Средний уровень)</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Умение вести непринужденный разговор на известные темы (работа,
+          учеба, путешествия). <br />
+          ∙ Способность понять основную идею текстов на общие темы. <br />
+          ∙ Создание коротких эссе и писем с личным мнением. <br />
+          ∙ Понимание основных идей телевизионных программ или фильмов.
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ Описание опыта или событий (например, “Last year, I went to
+          London.”). <br />
+          ∙ Выражение планов на будущее. <br />
+          ∙ Принятие участия в обсуждениях с коллегами.
+        </p>
+        <!-- ---------------------------------------------------- -->
+        <div class="title m-t-20">
+          <h2 class="title__text block">
+            B2 (Upper-Intermediate - Выше среднего)
+          </h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Способность понимать сложные тексты и участвовать в дискуссиях.
+          <br />
+          ∙ Уверенное использование языка для учебы, работы или путешествий.
+          <br />
+          ∙ Создание четких, детальных текстов на широкий круг тем. <br />
+          ∙ Понимание телевизионных новостей и фильмов без необходимости
+          субтитров.
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ Выражение своей точки зрения в споре. <br />
+          ∙ Участие в деловых переговорах. <br />
+          ∙ Написание эссе или докладов с аргументами.
+        </p>
+        <!-- ---------------------------------------------------- -->
+        <div class="title m-t-20">
+          <h2 class="title__text block">C1 (Advanced - Продвинутый уровень)</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Понимание длинных и сложных текстов (как художественных, так и
+          технических). <br />
+          ∙ Умение свободно и спонтанно общаться без напряжения для
+          собеседников. <br />
+          ∙ Эффективное использование языка для социальных, профессиональных и
+          академических целей. <br />
+          ∙ Способность писать четкие, структурированные тексты по сложным
+          темам.
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ Создание сложных отчетов или научных статей. <br />
+          ∙ Участие в дебатах с обоснованными аргументами. <br />
+          ∙ Уверенное восприятие тонких оттенков смысла в разговоре.
+        </p>
+        <!-- ---------------------------------------------------- -->
+        <div class="title m-t-20">
+          <h2 class="title__text block">C2 (Proficient - Уровень владения)</h2>
+          <div class="title__line"></div>
+        </div>
+        <p class="levels-info m-t-2 block">
+          <span>Описание:</span> <br />
+
+          ∙ Свободное понимание всего, что слышится или читается. <br />
+          ∙ Умение резюмировать информацию из различных устных и письменных
+          источников. <br />
+          ∙ Точное выражение себя в любой ситуации. <br />
+          ∙ Четкое, стилистически разнообразное и грамматически правильное
+          письмо на любую тему.
+          <br />
+          <br />
+          <span>Пример навыков:</span> <br />
+
+          ∙ Умение создавать художественные или академические тексты. <br />
+          ∙ Понимание скрытых смыслов в фильмах, книгах или разговорах. <br />
+          ∙ Участие в профессиональных конференциях или дебатах на высоком
+          уровне.
+        </p>
+      </div>
+    </div>
+    <!-- ---------------------------------------------------- -->
+    <header>
+      <div class="header__menu header__menu-2" id="burgerMenu">
+        <button id="burgerClse">
+          <div class="clsBrg-1"></div>
+          <div class="clsBrg-2"></div>
+        </button>
+        <a href="index.html">Главная</a>
+        <a href="courses.html">Курсы</a>
+        <a href="tests.html">Тесты</a>
+        <a href="about.html">О нас</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="login.html">Вход</a>
+        <a href="register.html">Регистрация</a>
+        <a href="profile.html">Личный кабинет</a>
+      </div>
+      <div class="header__contacts">
+        <div class="container header-1 block">
+          <div class="header__contacts__one">
+            <img src="img/marker-light.png" alt="" />
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/phone-light.png" alt="" />
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="header__contacts__one">
+            <img src="img/mail-light.png" alt="" />
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+      </div>
+      <div class="container header-2 block">
+        <div class="header__logo">
+          <img src="img/logo.png" alt="" />
+          <p>
+            Частное негосударственное образовательное <br />
+            учреждение дополнительного образования <br />
+            «Языковая студия «ЛингвоЛэнд»
+          </p>
+        </div>
+        <div class="header__menu">
+          <a href="index.html">Главная</a>
+          <a href="courses.html">Курсы</a>
+          <a href="tests.html">Тесты</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="burg" id="burderBtn">
+          <div class="burg-1"></div>
+          <div class="burg-2"></div>
+          <div class="burg-3"></div>
+        </div>
+      </div>
+    </header>
+    <!-- ---------------------------------------------------- -->
+    <main>
+      <div class="container p-b-60">
+        <div class="title m-t-20">
+          <h2 class="title__text block">Основные тесты</h2>
+          <div class="title__line"></div>
+        </div>
+        <div class="cards">
+          <div class="c-card c-card-test-1 block completed">
+            <div class="c-card__content content-2">
+              <h3>Beginner - Elementary</h3>
+              <p>Уровни A1-A2</p>
+              <!-- <a>Пройти ➜</a> -->
+              <div class="c-card__content__bottom">
+                <a class="completed-btn">Пройден ✓</a>
+                <p>
+                  Результат:
+                  <br />
+                  <span>16/18</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="c-card c-card-test-2 block">
+            <div class="c-card__content content-2">
+              <h3>Intermediate</h3>
+              <p>Уровень B1</p>
+              <div class="c-card__content__bottom">
+                <a href="test_intermediate.html">Пройти ➜</a>
+                <p>Готовы? Вперёд!</p>
+              </div>
+            </div>
+          </div>
+          <div class="c-card c-card-test-3 unavailable block">
+            <div class="c-card__content content-2">
+              <h3>Upper-Intermediate - Advanced</h3>
+              <p>Уровни B2-C1</p>
+              <div class="c-card__content__bottom">
+                <a class="uncompleted-btn">Недоступен ×</a>
+                <p>Пройдите предыдущий тест</p>
+              </div>
+            </div>
+          </div>
+          <p class="p-info p-b-30 block">
+            Об
+            <a class="p-info open-modal-btn">уровнях английского языка</a>.
+          </p>
+        </div>
+        <div class="title m-t-20">
+          <h2 class="title__text block">Тематические тесты</h2>
+          <div class="title__line"></div>
+        </div>
+        <div class="cards">
+          <div class="c-card c-card-test-4 block long-card">
+            <div class="c-card__content content-2">
+              <h3>Animals</h3>
+              <p>Кошка говорит "мяу"</p>
+              <div class="c-card__content__bottom">
+                <a href="">Пройти ➜</a>
+                <p>Готовы? Вперёд!</p>
+              </div>
+            </div>
+          </div>
+          <div class="c-card c-card-test-5 block long-card">
+            <div class="c-card__content content-2">
+              <h3>School</h3>
+              <p>Школа-школа</p>
+              <div class="c-card__content__bottom">
+                <a href="">Пройти ➜</a>
+                <p>Готовы? Вперёд!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- ---------------------------------------------------- -->
+    <footer>
+      <div class="container footer block">
+        <div class="footer__menu">
+          <h2>Меню</h2>
+          <a href="index.html">Главная</a>
+          <a href="tests.html">Тесты</a>
+          <a href="courses.html">Курсы</a>
+          <a href="about.html">О нас</a>
+          <a href="contacts.html">Контакты</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Аккаунт</h2>
+          <a href="login.html">Вход</a>
+          <a href="register.html">Регистрация</a>
+          <a href="profile.html">Личный кабинет</a>
+        </div>
+        <div class="footer__menu">
+          <h2>Контакты</h2>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/marker-light.png" alt="" />
+            </div>
+            <p>160011, г. Вологда, ул. Герцена, д. 56</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/phone-light.png" alt="" />
+            </div>
+            <p>+7 (911) 501-3051</p>
+          </div>
+          <div class="footer__contact">
+            <div class="footer__contact__img">
+              <img src="img/mail-light.png" alt="" />
+            </div>
+            <p>vologda@lingvoland.ru</p>
+          </div>
+        </div>
+        <div class="footer__menu">
+          <h2>Полезные ссылки</h2>
+          <div class="footer__menu__social">
+            <a href="https://vk.com/lingvoland"
+              ><img src="img/soc-vk.png" alt=""
+            /></a>
+            <a href=""><img src="img/soc-tg.png" alt="" /></a>
+            <a href=""><img src="img/soc-inst.png" alt="" /></a>
+            <a href=""><img src="img/soc-yt.png" alt="" /></a>
+          </div>
+          <a class="site-link" href="https://lingvoland.ru/ru/"
+            ><img src="img/link-site.png" alt=""
+          /></a>
+        </div>
+      </div>
+      <div class="line-red block"></div>
+      <div class="container block">
+        <p class="copyright">
+          <span>© 2024 ЧНОУ "ЛингвоЛэнд"</span>
+          Все права защищены
+        </p>
+      </div>
+    </footer>
+    <!-- ---------------------------------------------------- -->
+
+    <script src="js/mask.js"></script>
+    <script src="js/mySwiper.js"></script>
+    <script src="js/mySlider.js"></script>
+    <script src="js/disabledBtn.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/burgerMenu.js"></script>
+  </body>
+</html>
