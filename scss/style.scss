@@ -702,7 +702,7 @@ th {
   text-align: center;
   vertical-align: middle;
   color: white;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 900;
   margin: 35px 10px 0 0;
   width: 16px;
@@ -720,7 +720,7 @@ th {
   text-align: center;
   vertical-align: middle;
   color: white;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 900;
   margin: 35px 10px 0 0;
   width: 16px;
@@ -2259,5 +2259,9 @@ input[type="radio"] {
   }
   .cards {
     flex-direction: column;
+  }
+  .contacts__img-text {
+    align-items: center;
+    justify-content: center;
   }
 }
