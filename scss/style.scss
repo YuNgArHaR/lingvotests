@@ -692,30 +692,43 @@ th {
   align-items: center;
   justify-content: end;
 }
-.tick-cross {
-    align-self: flex-end;
+
+.tick-green {
+  padding: 0;
+  background-color: #82c272;
+  display: none;
+  align-self: flex-end;
   position: absolute;
   text-align: center;
   vertical-align: middle;
   color: white;
   font-size: 16px;
   font-weight: 900;
-  margin: 35px 10px 0 0; 
-   width: 16px;
+  margin: 35px 10px 0 0;
+  width: 16px;
   height: 16px;
-  box-shadow: var(--boxshadow--soft); 
-   align-items: center;
+  box-shadow: var(--boxshadow--soft);
+  align-items: center;
   justify-content: center;
   border-radius: 8px;
-}
-.tick-green {
-  padding: 0;
-  background-color: #82c272;
-  display: none;
 }
 .cross-red {
   display: flex;
   background-color: #da6c6c;
+  align-self: flex-end;
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  font-size: 16px;
+  font-weight: 900;
+  margin: 35px 10px 0 0;
+  width: 16px;
+  height: 16px;
+  box-shadow: var(--boxshadow--soft);
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
 }
 
 input::-ms-reveal {
