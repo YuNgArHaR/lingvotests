@@ -692,44 +692,30 @@ th {
   align-items: center;
   justify-content: end;
 }
-
-.tick-green {
-  align-self: flex-end;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  color: white;
-  font-size: 10px;
-  font-weight: 900;
-  margin: 35px 10px 0 0;
-  padding: 0;
-  width: 16px;
-  height: 16px;
-  background-color: #82c272;
-  border-radius: 8px;
-  box-shadow: var(--boxshadow--soft);
-  display: none;
-  align-items: center;
-  justify-content: center;
-}
-.cross-red {
-  align-self: flex-end;
+.tick-cross {
+    align-self: flex-end;
   position: absolute;
   text-align: center;
   vertical-align: middle;
   color: white;
   font-size: 16px;
   font-weight: 900;
-  margin: 35px 10px 0 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
+  margin: 35px 10px 0 0; 
+   width: 16px;
   height: 16px;
-  background-color: #da6c6c;
+  box-shadow: var(--boxshadow--soft); 
+   align-items: center;
+  justify-content: center;
   border-radius: 8px;
-  box-shadow: var(--boxshadow--soft);
+}
+.tick-green {
+  padding: 0;
+  background-color: #82c272;
+  display: none;
+}
+.cross-red {
   display: flex;
+  background-color: #da6c6c;
 }
 
 input::-ms-reveal {
@@ -2181,32 +2167,40 @@ input[type="radio"] {
     margin-right: auto;
   }
   .c-card {
-    height: 170px;
+    // height: 170px;
+    width: 100%;
   }
   .c-card__content {
-    padding: 8px;
+    padding: 22px;
     & h3 {
       height: 42px;
-      font-size: 12px;
+      line-height: 20px;
+      font-size: 20px;
       font-weight: 700;
       word-wrap: break-word !important;
       text-wrap: wrap !important;
+      flex: 0;
     }
     & p {
-      font-size: 12px;
+      font-size: 18px;
+      margin-top: 15px;
     }
   }
   .c-card__content__bottom {
     flex-direction: column;
     align-items: start;
+    justify-content: end;
+    gap: 10px;
+
     & a {
-      font-size: 12px;
+      font-size: 15px;
     }
     & p {
-      font-size: 12px;
+      margin-top: 0px;
+      font-size: 15px;
       text-align: start;
       & span {
-        font-size: 12px;
+        font-size: 15px;
       }
     }
   }
@@ -2249,5 +2243,8 @@ input[type="radio"] {
         width: clamp(15.625rem, -0.375rem + 80vw, 20.875rem);
       }
     }
+  }
+  .cards {
+    flex-direction: column;
   }
 }
